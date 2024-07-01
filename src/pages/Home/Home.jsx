@@ -5,7 +5,7 @@ import imgPerfil from "../../images/foto-perfil.png";
 import styles from "./Home.module.css";
 
 //components
-import Button from "../../components/Button/Button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,8 +21,11 @@ const Home = () => {
           alt="foto de Raphael Mazzieri"
           className={styles.profileImg}
         />
-
-        <Button></Button>
+        <button>
+        <a href="../../curriculo/Raphael-Dev-Frontend.pdf" download target="_blank">
+            Curriculo
+          </a>
+        </button>
       </section>
     </>
   );
