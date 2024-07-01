@@ -1,0 +1,49 @@
+*{
+    color: #FFF;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo > div{
+    flex-direction: column;
+}
+
+.logo img{
+    width: 55px;
+}
+
+.logo span{
+    color: #08C4E9;
+}
+
+
+.menuItems{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menuItems > li > a {
+    padding: 10px 20px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+}
+
+.menuItems li > a:hover{
+    background-color: #F2786D;
+    border-radius: 50px;
+}
+
