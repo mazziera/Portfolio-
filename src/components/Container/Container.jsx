@@ -2,9 +2,9 @@ import styles from "./Container.module.css"
 
 const Container = ({children}) => {
   return (
-    <section className={styles.containerHeight}>
+    <main className={styles.containerHeight}>
     {children}
-    </section>
+    </main>
   )
 }
 
