@@ -1,12 +1,43 @@
 .hero{
+    padding-top: 3.6rem;
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(2, 500px);
    align-items: center;
+   justify-content: center;
 }
+
+.hero .titles p{
+    font-size: 1.5em;
+}
+
+.hero .titles h1{
+    font-size: 2.6em;
+}
+
+.hero .titles h2{
+    font-size: 2em;
+}
+
 .profileImg{
     width: 300px;
+    background: radial-gradient(#011C26, #011C26, #CFD984, #F2EAC2);
+    border: 2px solid #FFF;
     border-radius: 50%;
     filter: drop-shadow(2px 2px 4px rgba(255, 255, 255, 0.123));
 }
 
+.btnResume{
+    width: 30%;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #08C4E9;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
 
+.btnResume:hover{
+    transform: scale(1.1);
+}

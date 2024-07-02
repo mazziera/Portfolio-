@@ -11,9 +11,10 @@ const Home = () => {
   return (
     <>
       <section className={styles.hero}>
-        <div>
+        <div className={styles.titles}>
           <p> Olá, Seja Bem-Vindo(a)!</p>
-          <h1>Sou o Raphael Mazzieri Quitto</h1>
+          <h1>Sou o Raphael Mazzieri</h1>
+          <h2>Desenvolvedor Frontend</h2>
         </div>
 
         <img
@@ -21,9 +22,9 @@ const Home = () => {
           alt="foto de Raphael Mazzieri"
           className={styles.profileImg}
         />
-        <button>
+        <button className={styles.btnResume}>
         <a href="../../curriculo/Raphael-Dev-Frontend.pdf" download target="_blank">
-            Curriculo
+            Currículo
           </a>
         </button>
       </section>
