@@ -1,4 +1,9 @@
 # Porfolio
 
-- Deploy: https://portfolio-5fxqyqzmg-raphael-mazzieri-quittos-projects.vercel.app/
+## Status
+- Em construção 🚧
+
+  
+## Links
+- Deploy: https://portfolio-8mxj1i3pk-raphael-mazzieri-quittos-projects.vercel.app/
 
