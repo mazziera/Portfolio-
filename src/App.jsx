@@ -7,7 +7,7 @@ import Projects from "./pages/Projects/Projects.jsx";
 
 //components
 import Container from "./components/Container/Container.jsx";
-import Nav from "./components/Nav/Nav.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Container>
-        <Nav />
+        <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

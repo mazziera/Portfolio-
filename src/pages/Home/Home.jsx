@@ -14,7 +14,7 @@ const Home = () => {
         <div className={styles.titles}>
           <p> Olá, Seja Bem-Vindo(a)!</p>
           <h1>Sou o Raphael Mazzieri</h1>
-          <h2>Desenvolvedor Frontend</h2>
+          <h2>Frontend Developer</h2>
         </div>
 
         <img
