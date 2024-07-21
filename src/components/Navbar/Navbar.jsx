@@ -19,6 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
+      
       <NavLink className={styles.brand} to="/">
         <section className={styles.logo}>
           <img src={logo} alt="logo" />

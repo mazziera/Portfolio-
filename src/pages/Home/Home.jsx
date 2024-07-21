@@ -12,8 +12,8 @@ const Home = () => {
     <>
       <section className={styles.hero}>
         <div className={styles.titles}>
-          <p> Olá, Seja Bem-Vindo(a)!</p>
-          <h1>Sou o Raphael Mazzieri</h1>
+          <p> Olá, Seja Bem-Vindo(a)! Sou o</p>
+          <h1> Raphael Mazzieri</h1>
           <h2>Frontend Developer</h2>
         </div>
 

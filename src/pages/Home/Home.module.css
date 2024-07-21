@@ -1,7 +1,7 @@
 .hero {
   padding-top: 3.6rem;
   display: grid;
-  grid-template-columns: repeat(2, 500px);
+  grid-template-columns: 650px 250px;
   align-items: center;
   justify-content: center;
 }
@@ -11,11 +11,11 @@
 }
 
 .hero .titles h1 {
-  font-size: 2.6em;
+  font-size: 3.6em;
 }
 
 .hero .titles h2 {
-  font-size: 2em;
+  font-size: 2.6em;
 }
 
 .profileImg {

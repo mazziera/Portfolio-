@@ -6,7 +6,6 @@ nav{
 }
 
 .logo{
-    /* max-width: 20%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,17 +33,12 @@ nav{
     gap: 10px;
 }
 
-.nav_list li {
-    margin-right: 0;
-}
-
 .nav_list li a {
     padding: 0.4em 0.6em;
+    font-size: 1.2em;
 }
 
-
-
-.menuItems li > a:hover{
+.nav_list li > a:hover{
     background-color: #CFD984;
     border-radius: 50px;
     color: #000;
