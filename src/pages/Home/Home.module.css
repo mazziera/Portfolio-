@@ -1,7 +1,7 @@
 .hero {
   padding-top: 3.6rem;
   display: grid;
-  grid-template-columns: 650px 250px;
+  grid-template-columns: 40% 40%;
   align-items: center;
   justify-content: center;
 }
@@ -19,7 +19,7 @@
 }
 
 .profileImg {
-  width: 300px;
+  width: 350px;
   background: radial-gradient(#011c26, #011c26, #cfd984, #f2eac2);
   border: 2px solid #fff;
   border-radius: 50%;
