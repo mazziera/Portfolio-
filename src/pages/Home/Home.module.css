@@ -20,7 +20,7 @@
 }
 
 .profileImg {
-  width: 350px;
+  max-width: 350px;
   background: radial-gradient(#011c26, #011c26, #cfd984, #f2eac2);
   border: 2px solid #fff;
   border-radius: 50%;
@@ -39,9 +39,9 @@
   bottom: 0;
   transform: translateY(-50%);
   left: 10%;
-  display: flex;
-  justify-content: center;
-  transition: 0.7s ease-in
+
+  transition: 0.3s ease-in;
+  color: #000;
 }
 
 .btnResume:hover {
@@ -51,3 +51,30 @@
   
 }
 
+@media (min-width: 320px) and (max-width: 420px) {
+  .hero{
+    height: 70%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .titles p {
+    font-size: 1em;
+  }
+  
+  .hero .titles h1, h2 {
+    font-size: 2em;
+  }
+  
+  .hero .titles h2 {
+    font-size: 1.8em;
+  }
+
+  .profileImg {
+    max-width: 300px;
+  }
+
+}

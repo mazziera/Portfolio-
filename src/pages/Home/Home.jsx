@@ -22,11 +22,14 @@ const Home = () => {
           alt="foto de Raphael Mazzieri"
           className={styles.profileImg}
         />
+        
         <button className={styles.btnResume}>
         <a href="../../curriculo/Raphael-Dev-Frontend.pdf" download target="_blank">
             Currículo
           </a>
         </button>
+
+        
       </section>
     </>
   );
