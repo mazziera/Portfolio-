@@ -75,6 +75,13 @@
 
   .profileImg {
     max-width: 300px;
+    margin-top: 1em;
+  }
+
+  .btnResume{
+    width: 40%;
+    transform: translateY(50%);
+    transform: translateX(50%);
   }
 
 }
